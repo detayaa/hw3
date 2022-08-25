@@ -32,6 +32,16 @@ public class Main {
         float allStudents = (Ludmila + Anna + Ekaterina);
         System.out.println("На каждого ученика рассчитано " + (allPaper / allStudents) + " листов бумаги");
 
+        System.out.println("Четвертое задание");
+        byte twoMinutes = 16;
+        byte oneMinutes = 16 / 2;
+        System.out.println("За 20 минут машина произвела " + (oneMinutes * 20) + " бутылок");
+        System.out.println("В сутки машина производит " + ((oneMinutes * 60) * 24) + " бутылок");
+        System.out.println("За 3 дня машина произвела " + ((oneMinutes * 60) * (24 * 3)) + " бутылок");
+        System.out.println("За 1 месяц машина произвела " + ((oneMinutes * 60) * (24 * 30)) + " бутылок");
+
+
+
 
 
 
