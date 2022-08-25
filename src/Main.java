@@ -49,6 +49,15 @@ public class Main {
         int countBrown = allClasses * canBrown;
         System.out.println("В школе, где " + allClasses + " классов, нужно " + countWhite + " белой краски и " + countBrown + " банок коричневой краски");
 
+        System.out.println("Шестое задание");
+        int gramBananas = 5 * 80;
+        int gramMilk = 2 * 105;
+        int gramIceCream = 2 * 100;
+        int gramEggs = 70 * 4;
+        float allGrams = gramEggs + gramBananas + gramMilk + gramIceCream;
+        System.out.println("Вес такого завтра равен " + (gramEggs + gramBananas + gramMilk + gramIceCream) + " грамм");
+        System.out.println("Вес такого завтра равен " + (allGrams / 1000) + " кг");
+
 
 
 
