@@ -1,3 +1,5 @@
+import java.security.Key;
+
 public class Main {
     public static void main(String[] args) {
     System.out.println("Первое задание");
@@ -22,6 +24,13 @@ public class Main {
         int i = 27897;
         byte by = 67;
 
+        System.out.println("Третье задание");
+        byte Ludmila = 23;
+        byte Anna = 27;
+        byte Ekaterina = 30;
+        int allPaper = 480;
+        float allStudents = (Ludmila + Anna + Ekaterina);
+        System.out.println("На каждого ученика рассчитано " + (allPaper / allStudents) + " листов бумаги");
 
 
 
