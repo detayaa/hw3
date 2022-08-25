@@ -58,6 +58,14 @@ public class Main {
         System.out.println("Вес такого завтра равен " + (gramEggs + gramBananas + gramMilk + gramIceCream) + " грамм");
         System.out.println("Вес такого завтра равен " + (allGrams / 1000) + " кг");
 
+        System.out.println("Седьмое задание");
+        int kgVgrams = 7;
+        float gramsVkg250 = 250f / 1000;
+        float gramsVkg500 = 500f / 1000;
+        System.out.println("Если по 250 грамм, то в " + (kgVgrams / gramsVkg250) + " дней");
+        System.out.println("Если по 500 грамм, то в " + (kgVgrams / gramsVkg500) + " дней");
+        System.out.println("Среднее кол-во дней " + ((kgVgrams / gramsVkg500) +(kgVgrams / gramsVkg500) / 2));
+
 
 
 
