@@ -12,6 +12,19 @@ public class Main {
     System.out.println("Значение переменной fourth с типом float равно " + fourth);
     System.out.println("Значение переменной fifth с типом double равно " + fifth);
 
+        System.out.println("Второе задание");
+        float f = 27.12f;
+        long l = 987_678_965_549L;
+        double d = 2.786;
+        boolean b = d >= 3;
+        var v = 569;
+        short sh = -159;
+        int i = 27897;
+        byte by = 67;
+
+
+
+
 
     }
 }
