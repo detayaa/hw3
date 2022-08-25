@@ -40,6 +40,16 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + ((oneMinutes * 60) * (24 * 3)) + " бутылок");
         System.out.println("За 1 месяц машина произвела " + ((oneMinutes * 60) * (24 * 30)) + " бутылок");
 
+        System.out.println("Пятое задание");
+        byte canWhite = 2;
+        byte canBrown = 4;
+        byte allCan = 120;
+        int allClasses = allCan / (canWhite + canBrown);
+        int countWhite = allClasses * canWhite;
+        int countBrown = allClasses * canBrown;
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + countWhite + " белой краски и " + countBrown + " банок коричневой краски");
+
+
 
 
 
